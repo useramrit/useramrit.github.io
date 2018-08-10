@@ -1,0 +1,175 @@
+/*
+	#BEE3DB --- light Blue
+	#FAF9F9 --- Off white
+	#392F5A --- Dark blue
+
+	font-family: 'Bree Serif', serif; --- H1
+	font-family: 'Questrial', sans-serif; --- Nav
+	font-family: 'Teko', sans-serif; --- Normal text
+*/
+
+body {
+	background-color: 
+}
+.col {
+	/*background-color: grey;*/
+	border: 0.5px solid rgba(0,0,0,0.5);
+}
+
+.col-aside {
+	background-color: #392F5A;
+	color: #BEE3DB;
+}
+
+.col-primary {
+	background-color: #BEE3DB;
+	padding: 0;
+}
+nav {
+	background-color: white;
+	
+}
+.logo {
+	width:200px;
+	height:auto;
+	max-width: 100%;
+}
+h1  {
+	font-family: 'Bree Serif', serif;
+}
+
+h1 span {
+	display: block;
+	font-size: 18px;
+}
+.main-menu {
+	text-align: right;
+	padding: 5px 0;
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+}
+.main-menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	color:black;
+	transition: all 0.5s;
+	display: inline-block;
+
+}
+a:hover {
+	text-decoration: none;
+	transform: scale(1.1);
+	color: black;
+}
+
+.intro {
+	margin: 25px auto;
+	text-align: center;
+}
+.content {
+	
+	border-left:1px solid black;
+	background-color: #FAF9F9;
+
+}
+
+.content .work-item {
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px 0;
+	text-align: center;
+	background-color: #392F5A;
+	border-radius: 10%;
+}	
+.content img {
+	max-width: 80%;
+}
+.grid {
+	;
+	border-style: none;
+	margin-bottom: 30px;
+}
+
+.work-item p {
+	font-family: 'Teko', sans-serif;
+	color: #FAF9F9;
+	font-size: 20px;
+	margin: 10px 25px;
+
+}
+
+.resume-header-wrapper {
+	text-align: center;
+}
+.resume-heading .subtitle {
+	display: flex;
+}
+.resume-heading h1 {
+	font-size: 40px;
+    margin: 0px;
+    text-transform: uppercase;
+    width: auto;
+    font-weight: 500;
+    display: inline-block;
+    /*padding-bottom: 15px;*/
+}
+
+.subtitle:before {
+	content: "";
+    border-bottom: 1px solid white;
+    flex-grow: 1;
+    height: 1px;
+    margin-top: 10px;
+ } 
+
+
+.subtitle-text {
+	padding-left: 5px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: Gold;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+.resume-college {
+	display: inline-block;
+
+}
+
+.college-details {
+	display: flex;
+}
+
+.year h1:before {
+	border:2px solid red;
+	border-radius: 100%;
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+}
+
+.year {
+	width: 40%;
+	font-size: 50px;
+}
+
+.year-info {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.year-info p {
+	padding-top: 10px;
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+}
