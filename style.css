@@ -147,15 +147,23 @@ a:hover {
 
 .college-details {
 	display: flex;
+	position: relative;
 }
 
+/*.college-wrapper {
+	position: relative;
+	display: flex;
+}*/
+
 .year h1:before {
+	content: "";
 	border:2px solid red;
 	border-radius: 100%;
-	background-color: black;
+	background-color: white;
 	width: 15px;
 	height: 15px;
-	background-color: white;
+	position: absolute;
+	top:10px;
 }
 
 .year {
